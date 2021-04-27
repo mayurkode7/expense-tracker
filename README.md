@@ -1,3 +1,5 @@
 # expense-tracker
 
-- App using React
+- Front end using React
+- Backend using Node and express
+- database is MongoDB

@@ -4,7 +4,8 @@
   "description": "Backend for Expense Tracker",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cd backend && npm run start"
   },
   "repository": {
     "type": "git",

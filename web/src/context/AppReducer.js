@@ -5,13 +5,26 @@ const AppReducer = (state, action) => {
         case actions.DELETE_TRANSACTION:
             return {
                 ...state,
-                transactions: state.transactions.filter((transaction) => transaction.id !== action.payload)
+                transactions: state.transactions.filter((transaction) => transaction._id !== action.payload)
             }
 
         case actions.ADD_TRANSACTION:
             return {
                 ...state,
                 transactions: [...state.transactions, action.payload]
+            }
+
+        case actions.GET_TRANSACTIONS:
+            return {
+                ...state,
+                loading: false,
+                transactions: action.payload
+            }
+
+        case actions.GET_TRANSACTIONS_ERROR:
+            return {
+                ...state,
+                error: action.payload
             }
 
         default:

@@ -1,0 +1,19 @@
+{
+  "name": "expense-tracker",
+  "version": "1.0.0",
+  "description": "Backend for Expense Tracker",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mayurkode7/expense-tracker.git"
+  },
+  "author": "Mayur Kode",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mayurkode7/expense-tracker/issues"
+  },
+  "homepage": "https://github.com/mayurkode7/expense-tracker#readme"
+}
